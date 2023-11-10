@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 45px;
+    display: flex;
+}
+.card{
+    width: 254px;
+    height: 360px;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    margin: 0 5px;
+}
+.image{
+    padding: 5px;
+}
+.image img{
+    border-radius: 9px;
+}
+.capsules{
+    padding: 8px;
+}
+span{
+    border: 1px solid rgba(0, 0, 255, 0.444);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    font-size: 15px;
+}
+.content{
+    padding: 0 7px;
+}
+.content h2{
+    font-size: 18px;
+}
+.content p{
+    padding: 5px 0px;
+    font-size: 15px;
+}
+.button{
+    text-align: center;
+    padding: 5px 0px;
+}
+.button button{
+    border-radius: 5px;
+    padding: 3px 5px;
+    background-color: rgb(172, 189, 243);
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(50, 157, 211);
+    color: black;
+}

@@ -1,0 +1,116 @@
+:root{
+    --primary-color: rgb(118, 118, 230);
+    --secondary-color: aqua;
+    --bg-color: white;
+    --box1-color: black;
+    --box2-color: rgb(248, 85, 85);
+    --box3-color: rgb(222, 164, 78);
+    --box4-color: rgb(181, 216, 107);
+    --box5-color: rgb(99, 212, 184);
+    --box6-color: rgb(234, 154, 233);
+    --text-color: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    /* top: 0; */
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+/* header section */
+nav{
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    padding: 48px 48px 0px 48px;
+    color: var(--text-color);
+    list-style: none;
+}
+
+/* Main Section Start */
+main{
+    margin: 22px;
+    float: left;
+}
+.boxes{
+    display: flow-root;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+.box1{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: var(--box1-color);
+    margin-right: 35px;
+    margin-bottom: 5px;
+}
+.box2{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: var(--box2-color);
+    margin-right: 35px;
+    margin-bottom: 5px;
+}
+.box3{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: var(--box3-color);
+    margin-right: 35px;
+    margin-bottom: 5px;
+}
+.box4{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: var(--box4-color);
+    margin-right: 35px;
+}
+.box5{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: var(--box5-color);
+    margin-right: 35px;
+}
+.box6{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: var(--box6-color);
+    margin-right: 35px;
+}
+.logo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    clear: both;
+}
+
+.intro h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+.intro p{
+    padding: 5px 30px;
+}
+footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 20px;
+    clear: both;
+}
+
