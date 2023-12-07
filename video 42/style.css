@@ -1,0 +1,26 @@
+.wrap{
+    max-width: 1000px;
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px auto;
+}
+.box{
+    width: calc(20%);
+    margin: 20px 20px;
+    background: #ddd;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    /* to make the boxes big */
+    line-height: 130px;
+
+}
+.blue{
+    background-color: rgba(56, 207, 248, 0.5);
+}
+.scaleX{
+    transform: scaleX(1);
+    transition: 2.5s ;
+}
