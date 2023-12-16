@@ -1,0 +1,26 @@
+.overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 50px;
+}
+.overview span {
+    font-size: 34px;
+}
+.overview p {
+    font-size: 20px;
+    width: 60vw;
+    text-align: center;
+
+}
+.overview button {
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
